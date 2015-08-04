@@ -1,0 +1,566 @@
+/* Apply to all ----------------------------------- */
+body{
+    font-family: human;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+}
+.break{
+    float: none;
+    display: inline-table;
+}
+.box {
+	margin:20px;
+	position:relative;
+    display: table;
+}
+.box a {
+    cursor: pointer;
+}
+
+.box .inner {
+	background:#f7f6f6;
+	padding:15px;
+	border:1px solid #dedede;
+	border-top:none;
+	-moz-border-radius-bottomright: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	/*overflow:hidden;*/
+    display: table;
+	margin-bottom:19px;
+}
+.box .head{
+	background: #f3f3f3 url(../images/h1-bg.png) left bottom repeat-x;
+	font-size:1.2em;
+    text-transform: uppercase;
+	color:#5d5d5d;
+	padding:9px 15px;
+	line-height:20px;
+	border:1px solid #dedede;
+	-moz-border-radius-topleft: 3px;
+	-webkit-border-top-left-radius: 3px;
+	 border-top-left-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-webkit-border-top-right-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.box .break{
+    margin-bottom: 0px;
+    padding: 0px;
+    float: left;
+    width: 100%;
+}
+
+.validation{
+    background: silver;
+    border-radius: 6px;
+    display: table;
+    margin: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: central;
+    color: black;
+}
+.validation .name{
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+    
+}
+.validation .icon{
+    float: left;
+}
+
+.form_group{
+    color: #5d5d5d;
+    font-size: 1em;
+    outline: medium none;
+    float: left;
+    text-transform: capitalize;
+    min-width: 260px;
+    min-height: 60px;
+}
+.form_group label{
+    border-radius: 3px;
+    color: #5d5d5d;
+    outline: medium none;
+    padding: 0px 6px;
+    display: block;
+}
+.form_group input[type=text], .form_group input[type=password], .form_group input[type=number]{
+    border: 1px solid #d2d1d1;
+    border-radius: 3px;
+    padding: 4px 6px;
+    width: 200px;
+    background-color: #fff;
+}
+.form_group textarea{
+    border: 1px solid #d2d1d1;
+    border-radius: 3px;
+    padding: 4px 6px;
+    width: 100%;
+    background-color: #fff;
+}
+.form_group select{
+    border: 1px solid #d2d1d1;
+    border-radius: 3px;
+    padding: 4px 6px;
+    width: 215px;
+    background-color: #fff;
+}
+
+
+.btnSubmit:hover {
+    background-color: #086912;
+}
+.btnSubmit {
+    color: #FFF;
+    font-size: 1em;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 8px 20px;
+    border: medium none;
+    border-radius: 3px;
+    margin-right: 4px;
+    background: none repeat scroll 0% 0% #33AC3F;
+    background: none repeat scroll 0% 0% #33AC3F;
+}
+.btnDelete:hover {
+    background-color: #782918;
+}
+.btnDelete {
+    color: #FFF;
+    font-size: 1em;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 8px 20px;
+    border: medium none;
+    border-radius: 3px;
+    margin-right: 4px;
+    background: none repeat scroll 0% 0% #33AC3F;
+    background-color: #aa4935;
+}
+
+.btnReset:hover {
+    background-color: #4d4d4d;
+}
+
+.btnReset {
+    color: #FFF;
+    font-size: 1em;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 8px 20px;
+    border: medium none;
+    border-radius: 3px;
+    margin-right: 4px;
+    background: none repeat scroll 0% 0% #33AC3F;
+    background-color: #848484;
+}
+
+/*-----------------------------------------------------------*/
+/* -------------------- Message Block ----------------------- */
+
+.alert-box {
+	color:#555;
+	border-radius:10px;
+	font-family:Tahoma,Geneva,Arial,sans-serif;font-size:11px;
+	padding:10px 36px;
+	margin:10px;
+}
+.alert-box span {
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.error {
+	background:#ffecec url('images/error.png') no-repeat 10px 50%;
+	border:1px solid #f5aca6;
+}
+.success {
+	background:#e9ffd9 url('images/success.png') no-repeat 10px 50%;
+	border:1px solid #a6ca8a;
+}
+.warning {
+	background:#fff8c4 url('images/warning.png') no-repeat 10px 50%;
+	border:1px solid #f2c779;
+}
+.notice {
+	background:#e3f7fc url('images/notice.png') no-repeat 10px 50%;
+	border:1px solid #8ed9f6;
+}
+
+/* ---------------------------- End Message Block ----------- */
+
+/* ------------------- Table Block -------------------------- */
+.table_tyle{
+    
+}
+
+.table_tyle a{
+    padding: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #176775;
+}
+.table_tyle table a:hover {
+	color: #bd5a35;
+	text-decoration:underline;
+}
+
+.table_tyle table {
+	font-family:Arial, Helvetica, sans-serif;
+	color:black;
+	font-size:12px;
+	text-shadow: 1px 1px 0px #fff;
+	background:#eaebec;
+	margin:20px;
+	border:#ccc 1px solid;
+
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+
+	-moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+    border-collapse:collapse;
+}
+.table_tyle table th {
+	padding:10px;
+	border:1px solid black;
+    text-transform: capitalize;
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+    
+	background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+    background: #d9edf7;
+    color: black;
+    font-size: 1.1em;
+}
+.table_tyle table td {
+	padding:5px;
+	border: 1px solid black;
+    text-align: left;
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+.table_tyle table tr:hover td{
+	background: #E8B48C;
+    text-shadow: none;
+    color: black;	
+}
+.table_tyle .total{
+    
+    font-weight: bold;
+    text-transform: capitalize;
+    text-shadow: none;
+    background: #d9edf7;
+
+}
+.table_tyle .total_text{
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.table_tyle .total_g{
+    font-weight: bold;
+    text-decoration: underline;
+    background: #f2dede;
+    text-transform: capitalize;
+    font-size: 1.2em;
+}
+.validator{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* ------------------- End Table Block ---------------------- */
+
+/* ------------------- Staff Profile ------------------------ */
+.sub_block_left{
+    max-width: 300px;
+    float: left;
+    
+}
+.sub_block_right{
+    float: left;
+    margin: 10px;
+    
+}
+.staff_photos img{
+    width: 240px;
+    margin: 10px;
+    border: 1px gray solid;
+    border-radius: 6px;
+}
+.sub_menu1 a{
+    color:black;
+    background: #E0E0E0;
+    margin: 10px;
+    padding: 10px;
+    width: 180px;
+    border: 1px #E0E0E0 solid;
+    border-radius: 6px;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    display: block;
+}
+.sub_menu1 a:hover{
+    background: white;
+    border: 1px silver solid;
+}
+/* ------------------- End staff profile -------------------- */
+
+/* Pay slip style --------------------------------------------*/
+.pay_slip{
+    width: 48%;
+    float: left;
+    margin: 1%;
+    font-family: human;
+    font-size: 0.8em;
+    text-transform: capitalize;
+    padding: 0px;
+    padding-right: 1%;
+    border-right: 1px black solid;
+}
+.pay_slip img{
+    width: 300px;
+}
+.pay_slip .title{
+    font-family: bokor;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.pay_slip thead{
+    font-weight: bold;
+}
+.pay_slip .total{
+background: #eeeeee; /* Old browsers */
+background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+
+    color: black;
+}
+.pay_slip .group{
+    font-weight: bold;
+}
+.total_num{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.singature{
+    font-weight: bold;
+}
+.payroll_title{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* End pay slip style ----------------------------------------*/
+
+.small_logo{
+    width: 180px;
+}
+.loan_title{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.lang{
+    width: 25px;
+}
+/* Salary Advance Printing For Khmer -------------------------*/
+.print_advance{
+    font-family: human;
+    max-width: 45em;
+}
+.print_advance .content1{
+    font-family: bokor;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.print_advance .content2{
+    font-family: bokor;
+    font-size: 1.2em;
+    font-weight: bold;
+    
+}
+/* Label group ------------------------------- */
+.info_group{
+    border: 0px blue solid;
+    margin: 10px;
+    min-width: 400px;
+    float: left;
+    font-size: 1em;
+}
+.info_group .title{
+    float: left;
+    background: none;
+    margin-right: 10px;
+    min-width: 120px;
+    text-transform: capitalize;
+    
+    
+}
+.info_group .value{
+    background: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* Employee ID Card -------------------------- */
+.center{
+    margin: 0 auto;
+    border: 0px red solid;
+    display: table;
+    text-align: center;
+}
+.center_front{
+    margin: 0 auto;
+    border: 0px red solid;
+    display: table;
+    text-align: center;
+    background:url('../images/id_background.jpg');
+}
+.idcard{
+    border-radius: 6px;
+    width: 5.4cm;
+    height: 8.5cm;
+    margin: 0px;
+    padding: 0px;
+    border: 1px blue solid;
+    font-size: 0.32cm;
+    font-family: "moul";
+    display: table;
+    page-break-after: always;
+    line-height: 0.55cm;
+}
+.idcard .logo{
+    width: 100%;
+    height: 1.4cm;
+    background:url('../images/tp_logo_label.jpg') no-repeat;
+    background-size: 100%;
+    border-radius: 6px;
+}
+.idcard .title{
+    text-align: center;
+    color: yellow;
+    text-transform: uppercase;
+    
+    font-weight: bold;
+}
+.idcard .organization{
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.idcard .photo{
+    width: 100%;
+    text-align: center;
+    margin-top: 0.15cm;
+}
+.idcard .photo img{
+    height: 3.6cm;
+    border-radius: 6px;
+    border: 1px white solid;
+}
+.idcard .name{
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 2px;
+    
+}
+.idcard .position{
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 4px;
+}
+.idcard .id{
+    text-align: center;
+    margin-top: 0.2cm;
+    font-weight: bold;
+    color: #DF551A;
+    font-size: 0.37cm;
+    padding: 0px;
+    background: white;
+    border-radius: 6px;
+    font-family: "Times New Roman";
+}
+.idcard_back{
+    border-radius: 6px;
+    width: 5.4cm;
+    height: 8.6cm;
+    background: white;
+    margin: 0px;
+    border: 0px blue solid;
+    font-family: "human";
+    display: table;
+    page-break-after: always;
+    padding-top: 0.2cm;
+    padding-left: 0.2cm;
+}
+.idcard_back .text{
+    width: 100%;
+    text-align: left;
+    font-size: 0.32cm;
+    margin-top: 0.0cm;
+    color: #24248A;
+    line-height: 0.57cm;
+    padding: 0px;
+}
+.idcard_back .text note{
+    color: darkgreen;
+    font-weight: bold;
+}
+.idcard_back .text strong{
+    font-weight: bold;
+    color: black;
+    font-size: 0.32cm;
+    text-transform: capitalize;
+}
+
+.idcard_back .text_note{
+    width: 100%;
+    text-align: left;
+    font-size: 0.29cm;
+    margin-top: 0cm;
+    color: #24248A;
+    
+}
+.idcard_back .text_note strong{
+    font-weight: bold;
+    font-size: 0.3cm;
+    text-transform: capitalize;
+    color: black;
+}
+.idcard_back .image{
+    margin-top: 0.1cm;
+    width: 99%;
+    text-align: right;
+}
+.idcard_back .image img{
+    width: 4.5cm;
+}
+
+/* End employee ID Card ---------------------- */
