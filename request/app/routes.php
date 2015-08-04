@@ -66,3 +66,6 @@ Route::post('login', array('before' => 'csrf', function(){
 Route::get('error', function(){
     return "Connect to database error " . mysqli_error();
 });
+
+
+/* Test one 1 */
